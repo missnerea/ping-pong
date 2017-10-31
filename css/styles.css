@@ -1,9 +1,9 @@
 body {
-  background-color: #000000;
+  background-color: #a9a9a9;
 }
 
 #jumbotron {
-  background-color: #000000;
+  background-color: #cfd1d2;
   font-family: 'Codystar';font-size: 100px;
   text-align: center;
   text-decoration-color: #7937bf;
@@ -11,5 +11,5 @@ body {
 
 h1.double {
   border-style: double;
-  border-color: #7937bf;
+  border-color: #dc00f1;
 }

@@ -3649,7 +3649,7 @@ tbody.collapse.show {
 }
 
 .card {
-  position: relative;
+  position: left;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
@@ -3660,12 +3660,14 @@ tbody.collapse.show {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  float: left;
 }
 
 .card-body {
   -ms-flex: 1 1 auto;
       flex: 1 1 auto;
   padding: 1.25rem;
+  float: left;
 }
 
 .card-title {
