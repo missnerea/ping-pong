@@ -13,3 +13,9 @@ h1.double {
   border-style: double;
   border-color: #dc00f1;
 }
+
+#intro {
+  margin-left: 300px;
+  width: 650px
+
+}
