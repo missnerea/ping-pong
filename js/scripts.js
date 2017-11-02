@@ -1,25 +1,23 @@
-$(document).ready(function() {
-    $("form#ping-pong").submit(function(event) {
-      event.preventDefault();
-      var number = parseInt($("input#number").val());
-      var result = pingpong(number);
-      $("#result").text(result);
-    });
+$("form.ping").submit(function(event){
+  $("#output ul").empty();
+  var number = parseInt($("input").val());
+
+
+  for (var index = 1; index <= number; index+=1) {
+  if (index%15==0) {
+    $("#output ul").append('<li>'+"PingPong"+'</li>')
+  }
+  else if (index%5==0) {
+    $("#output ul").append('<li>'+"Pong"+'</li>')
+  }
+  else if (index%3==0) {
+    $("#output ul").append('<li>'+"Ping"+'</li>')
+  }
+  else {
+    $("#output ul").append('<li>'+index+'</li>')
+  }
+  }
+  $("form.ping")[0].reset();
+
+  event.preventDefault();
   });
-
-
-function countUp(number) {
-    var total = [];
-    for (var first = 1; first <= number; first++) {
-        if (first % 15 === 0) {
-            total.push("");
-        } else if (first % 5 === 0) {
-            total.push("");
-        } else if (first % 3 === 0) {
-            total.push("");
-        } else {
-            total.push(first);
-        }
-    };
-    return total;
-};
