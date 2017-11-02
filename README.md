@@ -1,8 +1,8 @@
 # Ping Pong Game.
-A webpage used to play an interesting version of Ping Pong done as my IPFT-3 at moringa school.
+A webpage used to play an interesting version of Ping Pong done as my MPFT-IP3 at moringa school.
 
 ### Prerequisites
-Navigate to https://missnerea.github.io/pingpong on your web browser to view the site.
+Navigate to https://missnerea.github.io/ping-pong on your web browser to view the site.
 
 ## Technologies Used
 Technologiess used include;
