@@ -1,4 +1,4 @@
-$("form.ping").submit(function(event){
+$("form.pingpong").submit(function(event){
   $("#output ul").empty();
   var number = parseInt($("input").val());
 
@@ -17,7 +17,7 @@ $("form.ping").submit(function(event){
     $("#output ul").append('<li>'+index+'</li>')
   }
   }
-  $("form.ping")[0].reset();
+  $("form.pingpong")[0].reset();
 
   event.preventDefault();
   });
